@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Mania</title>
+    <link rel="stylesheet" href="MovieMania Contact Us.css">
+</head>
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.Contact-Form {
+    display: flex;
+    margin-left: 20px;
+}
+.form-label {
+    display: inline-block;
+    font-size: 23px;
+    height: 50px;
+    width: 200px;
+}
+
+.container input[type=text], select, textarea {
+  width: 73%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#country {
+    cursor: pointer;
+}
+</style>
+
+<body>
+    <nav>
+        <label>
+            <input type="checkbox" class="line">
+            <div class="toggle">
+                <span class="top_line common"></span>
+                <span class="middle_line common"></span>
+                <span class="bottom_line common"></span>
+            </div>
+            <div class="slide">
+                <h1>Movie Mania</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Browse</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">Saved Movie</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </label>
+        <div class="Search-Bar">
+            <input type="text" placeholder="Search for movies or Tv shows">
+        </div>
+        <div class="right-ul">
+            <ul>
+                <li><a href="D:\html\Movie Mania\MovieMania.html">Home</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Browse</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="Contact-Form">Contact Form</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label class="form-label" for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label class="form-label" for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label class="form-label" for="country">Country</label>
+    <select id="country" name="country">
+      <option value="UAE">UAE</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="Australia">Australia</option>
+      <option value="Pakistan">Pakistan</option>
+    </select>
+
+    <label class="form-label subject" for="subject"></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    <div class="page-number-line"></div>
+    <footer>
+        <p>© 2024 - 2025, <span id="Moviemania"> MOVIE MANIA</span></p>
+        <ul>
+            <li id="Contactus-Bottom">CONTACT US</li>
+            <a href="#"><li>HOW TO DOWNLOAD</li></a>
+        </ul>
+    </footer>
+</body>
+
+</html>
